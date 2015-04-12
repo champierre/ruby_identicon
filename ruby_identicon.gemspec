@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = RubyIdenticon::VERSION
   spec.authors       = ["Chris Branson"]
   spec.email         = ["branson.chris@gmail.com"]
-  
+
   spec.description   = <<-EOT
     A Ruby implementation of go-identicon by Damian Gryski
 
@@ -36,5 +36,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 2.14"
   spec.add_development_dependency "yard", "~> 0.8.7"
 
-  spec.add_dependency "chunky_png", "~> 1.3.0"
+  spec.add_dependency "chunky_png", "~> 1.2.7"
 end
